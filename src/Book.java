@@ -2,8 +2,8 @@ import java.util.Objects;
 
 public class Book {
 
-    String bookName;
-    String author;
+    private String bookName;
+    private String author;
 
     public Book(String bookName, String author) {
         this.bookName = bookName;
